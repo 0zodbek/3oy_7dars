@@ -21,7 +21,6 @@ button {
 header {
   margin: auto;
   z-index: 10;
-  position: fixed;
   max-width: 1920px;
   width: 100%;
   height: 152px;
@@ -173,7 +172,6 @@ nav a:hover {
 }
 
 .bg {
-  padding-top: 512px;
   background: #F5F6F8;
   height: 428px;
   width: 1920px;
@@ -184,7 +182,7 @@ nav a:hover {
 section {
   padding-top: 70px;
   z-index: 1;
-  margin: -428px auto;
+  margin: -498px auto;
 }
 
 .part_1 {
