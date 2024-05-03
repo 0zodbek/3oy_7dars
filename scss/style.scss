@@ -84,6 +84,20 @@ button {
 
 
     }
+    span{
+        position: absolute;
+        top: 12px;
+        right: 174px;
+        width: 24px;
+        height: 24px;
+        border-radius: 50%;
+        background: #EB6D20;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #fff;
+        font-size: 12px;
+    }
 }
 .shop_accaunt a{
     text-decoration: none;
@@ -175,12 +189,208 @@ nav{
     width: 1320px;
     // display: inline-block;
     display: flex;
-    justify-content: space-between;
-    // gap: 24px;
-    margin: auto;
+    // justify-content: space-between;
+    gap: 24px;
+    margin: 0 auto;
     margin-top: 24px;
+    div{
+        display: flex;
+        gap: 24px;
+    }
+    .image_wrapper {
+        position: relative;
+        border-radius: 10px;
+        span {
+            position: absolute;
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 20px;
+            text-align: left;
+            left: 16px;
+            bottom: 16px;
+            color: #fff;
+        }
+        img{
+            border-radius: 5px;
+        }
+    }
 }
+.part_2{
+    margin: auto;
+    .cardWrappers{
+        display: flex;
+        gap: 24px;
+        margin-top: 24px;
+        .card{
+        width: 312px;
+        height: 418px;
+        border-radius: 5px;
+        position: relative;
+    }
+        .card_1{
+            background: #D3FBD9;
+        }
+    
+    }
+    
+    
+}
+.card{
+    .color{
+        position: absolute;
+        top: 244px;
+        left: 24px;
+        h2{
+            font-size: 12px;
+            font-weight: 500;
+            line-height: 16px;
+            text-align: left;
+            color: #3E3E3E;
+        }
+        .colors{
+            display: flex;
+            gap: 8px;
+        }
+        button {
+            width: 16px;
+            height: 16px;
+            border-radius: 50%;
+            border:1px solid transparent;
+            margin-top: 12px;
+            background: #7CB93E;
+            transition: all 0.5s;
+        }
+        button:nth-child(2){
+            background: #33ABC6;
+        }
+        button:nth-child(3){
+            background: #1CCD8D;
+        }
+        button:nth-child(4){
+            background: #3F65EA;
+        }
+        button:nth-child(5){
+            background: #F64A69;
+        }
+        button:nth-child(6){
+            background: #A635EC;
+        }
+        button:nth-child(7){
+            background: #F9A85D;
+        }
+        button:hover{
+            border:1px solid #333;
+            transform: scale(1.1);
+            transform: translate(0, -5px);
+        }
+    }
+    .card_info{
+        position: absolute;
+        top: 292px;
+        left: 24px;
+        width: 264px;
+        margin-top: 24px;
+        p{
+            width: 264px;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 24px;
+            text-align: left;
+            color: #3E3E3E;
+        }
+        h3{
+            font-size: 14px;
+            font-weight: 500;
+            line-height: 18px;
+            text-align: left;
+            color: #3E3E3E;
+            margin-top: 40px;
+        }
+    }
+    i{
+        position: absolute;
+        top: 16px;
+        right: 16px;
+        width: 32px;
+        height: 32px;
+        border-radius: 50%;
+        background: #fff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: all 1s;
+        cursor: pointer;
+    }
+    i:hover{
+        color: #F64A69;
+        transform: scale(1.1);
+    }
+}
+.card img{
+    position: absolute;
+    top: 56px;
+    left: 56px;
+    
+}
+.card_2{
+    background: #FFE4BD;
+    .colors{
+        button:nth-child(2){
+            background: #3F65EA;
+        }
+        button:nth-child(3){
+            background: #F64A69;
+        }
+        button:nth-child(4){
+            background: #A635EC;
+        }
+        button:nth-child(5){
+            background: #F9A85D;
+        }
+    }
+    .card_info h3{
+        margin-top: 15px;
+    }
+    
+}
+.card_3{
+    background: #D9ABFD;
+    button:nth-child(1){
+        background: #3F65EA;
+    }
+    button:nth-child(2){
+        background: #F64A69;
+    }
+    button:nth-child(3){
+        background: #A635EC;
+    }
+    .card_info h3{
+        margin-top: 15px;
+    }
 
+}
+.card_4{
+    background: #FDF0AB;
+    .colors{
+        button:nth-child(1){
+            background: #7CB93E;
+        }
+        button:nth-child(2){
+            background: #1CCD8D;
+        }
+        button:nth-child(3){
+            background: #F64A69;
+        }
+        button:nth-child(4){
+            background: #A635EC;
+        }
+        button:nth-child(5){
+            background: #F9A85D;
+        }
+    }
+    
+    
+}
 
     
 
