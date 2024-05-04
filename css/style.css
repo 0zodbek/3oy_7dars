@@ -19,12 +19,12 @@ button {
 }
 
 header {
-  margin: auto;
   z-index: 10;
   max-width: 1920px;
   width: 100%;
   height: 152px;
   background: #FFF9F3;
+  margin: auto;
 }
 header .top_header {
   display: flex;
@@ -213,6 +213,15 @@ section {
 .part_1 .image_wrapper img {
   border-radius: 5px;
 }
+.part_1 .image_wrapper a {
+  transition: all 0.5s linear;
+}
+.part_1 .image_wrapper a:hover {
+  filter: drop-shadow(7px 5px 5px darkblue);
+}
+.part_1 .image_wrapper a:hover img {
+  filter: contrast(130%);
+}
 
 .part_2 {
   margin: auto;
@@ -227,9 +236,9 @@ section {
   height: 418px;
   border-radius: 5px;
   position: relative;
+  transition: all 1s linear;
 }
 .part_2 .cardWrappers .card_1 {
-  min-width: 312px;
   background: #D3FBD9;
 }
 
@@ -327,6 +336,15 @@ section {
   position: absolute;
   top: 56px;
   left: 56px;
+  transition: all 1.2s;
+}
+
+.card:hover {
+  filter: drop-shadow(5px 5px 7px);
+}
+.card:hover img {
+  transform: scale(1.2);
+  filter: contrast(150%);
 }
 
 .card_2 {
@@ -387,4 +405,71 @@ section {
 }
 .card_4 .colors button:nth-child(5) {
   background: #F9A85D;
+}
+.card_4 .card_info h3 {
+  margin-top: 15px;
+}
+
+.part_3 {
+  width: 1320px;
+  height: 200px;
+  margin: 48px auto;
+  background: #fff;
+}
+.part_3 .cards_3 {
+  width: 1320px;
+  height: 200px;
+  margin: auto;
+  display: flex;
+  gap: 10px;
+}
+.part_3 .cards_3 .card__3 {
+  margin: auto;
+  width: 424px;
+  height: 174px;
+  background: #F5F6F8;
+  display: flex;
+  gap: 74px;
+  border-radius: 5px;
+  border: 1px solid transparent;
+  transition: all 1s linear;
+}
+
+.card__3 h2 {
+  width: 172px;
+  margin-top: 45px;
+  margin-left: 24px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  text-align: left;
+  color: #000;
+  transition: all 1s linear;
+}
+.card__3 p {
+  width: 176px;
+  margin-top: 12px;
+  margin-left: 24px;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  text-align: left;
+  color: #292929;
+}
+.card__3 img {
+  margin-top: 24px;
+  transition: all 0.6s;
+}
+
+.card__3:hover {
+  box-shadow: 5px 5px 10px #888;
+}
+.card__3:hover h2 {
+  text-shadow: 5px 4px 5px rgb(132, 123, 123);
+}
+.card__3:hover p {
+  text-shadow: 5px 4px 5px rgb(132, 123, 123);
+}
+.card__3:hover img {
+  filter: contrast(150%);
 }/*# sourceMappingURL=style.css.map */
